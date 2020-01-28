@@ -97,8 +97,8 @@ En este momento tenemos estructurado el sitio de esta manera
     *Components*:Es el primer subdirectorio, en este guarda dos subdirectorios importantes, basicamente "Components" es el que se dedica a ser quien muestra los datos de forma bonita ya en la pagina dirigida.
 
         *Albums*: Este subdirectorio es el encargado de tener la configuracion de las paginas de Albums
-            *albums.js*:
-            
+            *albums.js*:Aqui viene toda la configuracion de las paginas, como se muestra la informacion y su distribucion esta, esta depende mucho de otro archivo que se enuentra en el directorio de Templates
+
         *Navigation*:
 
 *¿Que es lo que sigue?*
