@@ -1,9 +1,7 @@
-This Is a To Do For SHINIng World Solo Albums Gatsby Ver.
+#This Is a To Do For SHINIng World Solo Albums Gatsby Ver.
 
-1-El primer problema que se necesita trabajar seria en la muestra de contenido, el query que se busca es el siguiente :
- 
- query AllAlbums ($drupal_id: String!) {
-  nodeAlbums (drupal_id: {eq: $drupal_id}){
+- El primer problema que se necesita trabajar seria en la muestra de contenido, el query que se busca es el siguiente :
+ *queryeAlbums (drupal_id: {eq: $drupal_id}){
         title
         path: path {
           alias
@@ -23,11 +21,11 @@ This Is a To Do For SHINIng World Solo Albums Gatsby Ver.
           }
         Id: drupal_id
       }
-    }`
+    }`*
 
 ya que de los seis tipos de informacion que tiene solo se logran ver tres, tenemos un problema con los hijos que tiene el campo "Categoria" y "Lista de canciones"
-2.- se necesita habilitar otro campo en el query para poder insertar la imagen de la portada del album
-3-se necesitaria trabajar en poder colocar los links para spotify
-4.- Añadir estilos y organizacion de cada campo para hacer la pagina fluir
-5.- Hacer un index para enlazar las paginas.
-6.- Hacer un about para la pagina.
+-se necesita habilitar otro campo en el query para poder insertar la imagen de la portada del album
+-se necesitaria trabajar en poder colocar los links para spotify
+-Añadir estilos y organizacion de cada campo para hacer la pagina fluir
+-Hacer un index para enlazar las paginas.
+-Hacer un about para la pagina.
