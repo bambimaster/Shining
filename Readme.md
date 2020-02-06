@@ -99,8 +99,16 @@ En este momento tenemos estructurado el sitio de esta manera
         *Albums*: Este subdirectorio es el encargado de tener la configuracion de las paginas de Albums
             *albums.js*:Aqui viene toda la configuracion de las paginas, como se muestra la informacion y su distribucion esta, esta depende mucho de otro archivo que se enuentra en el directorio de Templates
 
-        *Navigation*:
+        *Navigation*: En este subdirectorio esta para que lograr conectar las paginas entre si
+              *layout.js*:Esta todo lo necesario para ser quien enlaza una pagina a otra
+    *Pages*:Este subdirectorio es el mas importante ya que contiene las configuraciones para cada pagina mostrada
+          *about.js*: Nuestra configuracion para la pagina de "about"
+          *index.js*:Nuestra configuracion para la pagina de "Index"
+     *Templates*:Este subdirectorio es para lo que se va amostrar de forma grafica en  la pagina
+           *index.js*:Configuracion de la pagina index 
+ 
+*Gastby-config.js*:Configuracion de Gastby, basicamente plugins instalados.
+*Gatsby-node.js*:Configuracion de Gastby para las paginas, aqui viene lo necesario para hacer funcionar todos los archivos anteriores.
 
-*¿Que es lo que sigue?*
 
 
