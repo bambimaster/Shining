@@ -19,7 +19,7 @@
     "gatsby": "^2.18.12",
     "gatsby-plugin-material-ui": "^2.1.6",
     "gatsby-plugin-react-helmet": "^3.1.21",
-    "gatsby-plugin-sharp": "^2.3.13",
+    "gatsby-plugin-sharp": "^4.25.1",
     "gatsby-source-drupal": "^3.3.16",
     "gatsby-source-filesystem": "^2.1.46",
     "gatsby-transformer-sharp": "^2.3.12",
